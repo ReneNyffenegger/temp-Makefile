@@ -9,6 +9,10 @@ showvar = echo $(1)=$($(1)) - VARONE=$(VARONE) VARTWO=$(VARTWO)
 
 VARONE=x
 
+$(info info varone=$(VARONE))
+$(info info obj=$(obj))
+$(info info cmd=$(cmd))
+
 all:
 	@echo $(call print_arg_1_through_3, one, two, three)	
 
