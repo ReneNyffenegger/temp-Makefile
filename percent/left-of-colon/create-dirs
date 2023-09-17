@@ -1,0 +1,12 @@
+rm -rf A
+rm -rf B
+
+mkdir -p A/B/X/Y
+mkdir -p A/B/Z
+mkdir -p B/X/Y
+mkdir -p B/Z
+
+
+touch prerequisite   -d '1 day ago'
+# touch A/B/X/Y/target
+# touch   B/X/Y/target
