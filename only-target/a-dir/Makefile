@@ -1,0 +1,2 @@
+all: x
+	echo all
